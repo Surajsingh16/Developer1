@@ -15,11 +15,13 @@
 
 <body>
     <!-- <h1 style="color:red"> -->
-        <h1 id = "lib-srj">
-        Lets start with HTML and CSS
+        <!-- <h1 id = "lib-srj"> -->
+
+<h1>            Lets start with HTML and CSS
     </h1>
 
-    <p class = "para">
+    <!-- <p class = "para"> -->
+        <p>
         I am attending neog.camp classes to learn about html and css.
 
     </p>
@@ -35,49 +37,51 @@
     <h2>
         This is the second biggest.
     </h2>
-    <p>This is normal text</p>
+    <p>This is normal <strong>bold</strong> text</p>
     <small>
         This is smallest
         </small>
         <hr>
         <h2>
-            @containers
+            @container
         </h2>
         <h3>
             Fluid container
         </h3>
-        <div>
+        <div class = "container">
             This is a fluid container and it will go to the end of page
         </div>
         <h3>
             center container
 
         </h3>
-        <div>
+        <div class = "container
+        container-center">
             This is a centered container and it will go till the specified width
         </div>
         <hr>
         <h2>
             @links
         </h2>
-        <a href="https://google.com">Suraj</a>
+        <a class = "link
+        primary-link"href="https://google.com">Primary Link</a>
         <hr>
         <h2>@lists</h2>
         <h3>unordered list</h3>
-        <ul>
+        <ul class="list-non-bullets">
             <li>Item One</li>
             <li>Item Two</li>
             <li>Item Three</li>
 
         </ul>
         <h3>Unordered inline list</h3>
-        <ul>
-            <li>Inline Item One</li>
-            <li>Inline Item Two</li>
-            <li>Inline Item Three</li>
+        <ul class = "list-non-bullets">
+            <li class = "list-inline-items">Inline Item One</li>
+            <li class = "list-inline-items">Inline Item Two</li>
+            <li class = "list-inline-items">Inline Item Three</li>
         </ul>
         <h3>reverse ordered list</h3>
-        <ol>
+        <ol reversed>
             <li>milk</li>
             <li>eggs</li>
             <li>break</li>
@@ -85,47 +89,63 @@
         </ol>
         <hr>
         <h2>@nav</h2>
-        <nav>
-            <dev>iambrand</dev>
-            <ul>
-                <li>
-                    <a href="/">home</a>
+        <nav class="navigation container">
+            <dev class ="nav-brand">iAmrand</dev>
+            <ul class = "list-non-bullet nav-pills">
+                <li class = "list-inline-items">
+                    <a class = "link link-active" href="/">home</a>
                 </li>
-                <li>
-                    <a href="/">products</a>
+                <li class="list-inline-items">
+                    <a class = "link" href="/">products</a>
                 </li>
-                <li>
-                    <a href="/">about</a>
+                <li class = "list-inline-items">
+                    <a class = "link" href="/">about</a>
                 </li>
             </ul>
         </nav>
 
         <hr>
         <h2>@header</h2>
-        <header>
-            <img src="hero.svg">
-            <h1>heading inside hero</h1>
+        <header class = "hero">
+            <img class = "hero-image" src="hero.svg">
+            <h1 class = "hero-heading">heading inside <span class = "heading-inverted">
+                hero</span></h1>
 
 
         </header>
         <hr>
         <h2>@Section</h2>
-        <section>
-            <h3>white section</h3>
-            <p>This will have white background</p>
+        <section class = "section">
+            <div class = "container container-center">
+            <h1>white section</h1>
+            <p>We are an open community of developers building resources for a better Web, regardless of brand, browser, or platform. Anyone can contribute and each person who does makes us stronger. Together we can continue to drive innovation on the Web to serve the greater good. It starts here, with you.</p>
+        </div>
         </section>
-        <section>
-            <h3>off white section</h3>
-            <p>This will have grey background</p>
+        <section class= "section ow">
+            <div class = "container container-center">
+            <h1>off white section</h1>
+            <p>We are an open community of developers building resources for a better Web, regardless of brand, browser, or platform. Anyone can contribute and each person who does makes us stronger. Together we can continue to drive innovation on the Web to serve the greater good. It starts here, with you.</p>
+        </div>
         </section>
         <hr>
         <h2>@footer</h2>
-        <footer>
-            <div>Some small heading inside footer</div>
-            <ul>
-                <li>socialone</li>
-                <li>socialtwo</li>
-                <li>socialthree</li>
+        <footer class = "footer">
+            <div class = "footer-header">Some small heading inside footer</div>
+            <ul class = "social-links list-non-bullets">
+                <li class = "list-inline-items">
+                    <a class = "link" href = "/">socialone
+                    </a>
+                </li>
+                <li class = "list-inline-items">
+                    <a class = "link" href = "/">
+                    socialtwo
+                </a>
+                </li>
+                <li class = "list-inline-items">
+                    <a class = "link"  href = "/">
+                        socialthree
+                    </a>
+                    </li>
             </ul>
         </footer>
 </body>
