@@ -43,11 +43,18 @@ hr{
 /* #DC2626
 7C3AED */
 :root{
---primary-color:#E11D48;
+--primary-color:#14B8A6;
 --dark-gray: #6B7280;
 --off-white: #F3F4F6;
 
 }
+
+/* main */
+/* #E11D48 */
+.link{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+  }
 
 .primary-link{
     color:var(--primary-color);
@@ -55,14 +62,18 @@ hr{
     border-radius: 0.5rem;
     color: white;
 
+}    
 
+.secondary-link{
+    color:var(--primary-color);
+    background-color: white;
+    border-radius: 0.5rem;
+    border: 0.5px solid var(--primary-color);
+}
+.third-link{
+    text-decoration: none;
 }
 
-
-.link{
-    text-decoration: none;
-    padding: 0.5rem 1rem;
-  }
 
   .list-non-bullets{
       list-style: none;
