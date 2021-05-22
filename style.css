@@ -35,6 +35,12 @@ hr{
     padding-right: 1rem; */
     padding: 0rem 1rem;
 }
+.container-cont{
+     padding-left:1rem;
+    padding-right: 1rem; 
+padding-block-start: 5rem;
+padding-block-end: 2rem;
+}
 
 .container-center{
     max-width: 600px;
@@ -72,6 +78,8 @@ hr{
 }
 .third-link{
     text-decoration: none;
+    font-weight: bold;
+    color:red;
 }
 
 
@@ -88,6 +96,11 @@ hr{
       color: white;
       border-bottom-left-radius: 1rem;
 }
+.navig{
+    background-color: var(--primary-color);
+    color:black;
+    border-bottom-left-radius: 1rem;
+}
 
 .navigation .link{
     color:white;
@@ -99,6 +112,12 @@ hr{
 .navigation .nav-brand{
     font-weight: bold;
     font-size: 1.1rem;
+}
+.navig .nav-br{
+    font-weight: normal;
+    font-size: 2rem;
+
+
 }
 
 .navigation .link-active{
@@ -114,6 +133,11 @@ hr{
     margin: auto;
 }
 
+.hero .frnd-image{
+    max-width: 1000px;
+    display: block;
+    margin: auto;
+}
 .hero .hero-heading{
     padding-top: 1rem;
     text-align: center;
