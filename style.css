@@ -90,7 +90,8 @@ padding-block-end: 2rem;
 
   .list-inline-items{
       display: inline;
-      padding: 0rem 0rem;
+      padding: 0rem 0.5rem;
+      margin:0px;
   }
   .navigation{
       background-color: var(--primary-color);
