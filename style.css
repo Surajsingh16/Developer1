@@ -135,11 +135,14 @@ padding-block-end: 2rem;
     margin: auto;
 }
 
+
 .hero .frnd-image{
     max-width: 1000px;
     display: block;
     margin: auto;
 }
+
+
 .hero .hero-heading{
     padding-top: 1rem;
     text-align: center;
@@ -178,3 +181,7 @@ color: var(--primary-color);
 .footer ul{
     padding-inline-start: 0px;
 }
+
+
+
+

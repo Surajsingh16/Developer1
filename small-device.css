@@ -1,0 +1,41 @@
+@media only screen and (max-device-width: 480px){
+    div#wrapper{
+        width: 400px;
+    }   
+   
+    div#header{
+        background-image: url(media-queries-https://msufp.in/2018/images2/blog/friends1.jpg);
+        height: 93px;
+        position: relative;
+    }
+    div#header h1{
+        font-size: 140%;
+    }
+    #content{
+        float:none;
+        width:100%;
+    }
+    navigation{
+        float:none;
+        width:auto;
+    }
+   }
+
+   body{
+       background-image: url(/img/small-https://msufp.in/2018/images2/blog/friends1.jpg);
+   }
+
+   #wrapper{
+       width: auto;
+       margin: auto;
+       text-align: left;
+       background-image: url(/img/small-https://msufp.in/2018/images2/blog/friends1.jpg);
+       background-position: left 5px;
+       background-repeat: no-repeat;
+       min-height: 400px;
+    }
+
+    .article #aside{
+        float: none;
+        width: auto;
+    }
