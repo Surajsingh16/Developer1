@@ -185,3 +185,18 @@ color: var(--primary-color);
 
 
 
+
+    
+/* 
+@media only screen and (max-width:500px){
+    .fdd{
+        background-image: url("https://msufp.in/2018/images2/blog/friends1.jpg");
+    }
+}
+
+
+@media only screen and (max-width:1600px){
+    .fdd{
+        background-image: url(https://msufp.in/2018/images2/blog/friends1.jpg);
+    }
+} */
